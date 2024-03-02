@@ -1,0 +1,90 @@
+::-webkit-scrollbar{
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(./computer.jpg);
+}
+/* first page */
+main{
+    height: 100vh;
+}
+main nav{
+    display: flex;
+}
+main nav h1{
+    font-size: 50px;
+    color: #fff;
+    margin-top: 35px;
+    text-transform: capitalize;
+    margin-left: 100px;
+}
+main nav .a{
+    margin-top: 56px;
+    margin-left: 700px;
+}
+main nav .a a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 20px;
+}
+main nav .a a:hover{
+    text-decoration: underline;
+}
+main nav .a button{
+    margin-left: 40px;
+    border: solid #fff;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: -8px;
+    background-color: #6495ed;
+}
+main .downntext{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 190px;
+    color: #fff;
+    text-transform: capitalize;
+}
+main .downntext a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+main .downntext a:hover{
+    text-decoration: underline;
+    color: #fff;
+    text-align: center;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+main .button-container button{
+    margin: 0;
+    text-align: center;
+    background-color: #6495ed;
+    color: #fff;
+    width: fit-content;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: solid #fff;
+    cursor: pointer;
+}
+main .button-container button:hover,
+main nav .a button:hover{
+    background-color: transparent;
+}
